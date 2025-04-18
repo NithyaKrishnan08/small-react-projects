@@ -3,6 +3,7 @@ import Counter from './components/Counter.jsx'
 import Meals from './components/Meals.jsx'
 import Calculator from './components/Calculator.jsx'
 import ToggleBackground from './components/ToggleBackground.jsx'
+import HiddenSearchBar from './components/HiddenSearchBar.jsx'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       {/* <Todo /> */}
       {/* <Meals /> */}
       {/* <Calculator /> */}
-      <ToggleBackground />
+      {/* <ToggleBackground /> */}
+      <HiddenSearchBar />
     </div>
   )
 }
