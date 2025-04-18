@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import Counter from './components/Counter.jsx'
+import Todo from './components/Todo.jsx'
 
 function App() {
 
   return (
     <div>
-      <Counter />
+      <Todo />
     </div>
   )
 }
