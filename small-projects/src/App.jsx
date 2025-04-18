@@ -1,10 +1,14 @@
 import Todo from './components/Todo.jsx'
+import Counter from './components/Counter.jsx'
+import Meals from './components/Meals.jsx'
 
 function App() {
 
   return (
     <div>
-      <Todo />
+      {/* <Counter />
+      <Todo /> */}
+      <Meals />
     </div>
   )
 }
