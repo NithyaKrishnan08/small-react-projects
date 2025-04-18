@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Counter from './components/Counter.jsx'
 
 function App() {
 
   return (
-    <>
-      <h1>Small Projects</h1>
-    </>
+    <div>
+      <Counter />
+    </div>
   )
 }
 
