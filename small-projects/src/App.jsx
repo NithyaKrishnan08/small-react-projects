@@ -1,22 +1,7 @@
-import Todo from './components/Todo.jsx'
-import Counter from './components/Counter.jsx'
-import Meals from './components/Meals.jsx'
-import Calculator from './components/Calculator.jsx'
-import ToggleBackground from './components/ToggleBackground.jsx'
-import HiddenSearchBar from './components/HiddenSearchBar.jsx'
+import Testimonials from "./components/Testimonials";
 
 function App() {
-
-  return (
-    <div>
-      {/* <Counter /> */}
-      {/* <Todo /> */}
-      {/* <Meals /> */}
-      {/* <Calculator /> */}
-      {/* <ToggleBackground /> */}
-      <HiddenSearchBar />
-    </div>
-  )
+  return <Testimonials />;
 }
 
-export default App
+export default App;
